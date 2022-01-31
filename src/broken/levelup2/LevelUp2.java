@@ -89,7 +89,7 @@ public class LevelUp2 {
         @SubscribeEvent
         public static void registerRecipes(RegistryEvent.Register<IRecipe> evt) {
             IForgeRegistry<IRecipe> reg = evt.getRegistry();
-            reg.register(new ShapelessOreRecipe(new ResourceLocation("levelup2", "reclaim"), new ItemStack(Blocks.GRAVEL, 4), Items.FLINT, Items.FLINT, Items.FLINT, Items.FLINT).setRegistryName(new ResourceLocation("levelup2", "gravel")));
+            reg.register(new ShapelessOreRecipe(new ResourceLocation("src/broken/levelup2", "reclaim"), new ItemStack(Blocks.GRAVEL, 4), Items.FLINT, Items.FLINT, Items.FLINT, Items.FLINT).setRegistryName(new ResourceLocation("src/broken/levelup2", "gravel")));
             oreLoad(reg);
             SkillRegistry.initPlankCache();
         }

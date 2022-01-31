@@ -30,7 +30,7 @@ public class GuiSkills extends GuiScreen {
     private static final int Y_MIN = SkillRegistry.smallestDisplayRow * 32 - 170;
     private static final int X_MAX = SkillRegistry.largestDisplayColumn * 32 - 77;
     private static final int Y_MAX = SkillRegistry.largestDisplayRow * 32 - 247;
-    private static final ResourceLocation BACKGROUND = new ResourceLocation("levelup2", "textures/gui/background.png");
+    private static final ResourceLocation BACKGROUND = new ResourceLocation("src/broken/levelup2", "textures/gui/background.png");
     private int imageWidth = 256;
     private int imageHeight = 202;
     private int lastX;

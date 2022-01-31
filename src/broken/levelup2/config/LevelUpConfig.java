@@ -53,7 +53,7 @@ public class LevelUpConfig {
     public static Path classDir;
 
     public static void init(File file) {
-        configDir = file.getParentFile().toPath().resolve("levelup2");
+        configDir = file.getParentFile().toPath().resolve("src/broken/levelup2");
         jsonDir = configDir.resolve("json");
         lootDir = jsonDir.resolve("loot_tables");
         skillDir = jsonDir.resolve("skills").resolve("playerskill");

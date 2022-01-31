@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+[[mods]]
+    modId="levelupreforged"
+    version="${file.jarVersion}"
+    displayName="LevelUp: Reforged"
+    credits="LegionModding"
+    authors="Made with <3 by LegionModding"
+    description='''This is an unofficial port of Level up 2 to modern Minecraft versions!'''
+[[dependencies.levelupreforged]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36.2.23,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.levelupreforged]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.levelupreforged]]
+    modId="yalm"
+    mandatory=true
+    versionRange="[forge-0.0.3,forge-0.1.0)"
+    ordering="NONE"
+    side="BOTH"

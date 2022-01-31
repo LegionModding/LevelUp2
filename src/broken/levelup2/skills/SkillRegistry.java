@@ -57,11 +57,11 @@ public class SkillRegistry {
     public static int largestDisplayColumn = 0;
     public static int largestDisplayRow = 0;
 
-    public static Item surfaceOreChunk = new ItemOreChunk(Library.SURFACE_ORES).setTranslationKey("levelup:surfaceore").setRegistryName(new ResourceLocation("levelup2", "surfaceore"));
-    public static Item netherOreChunk = new ItemOreChunk(Library.NETHER_ORES).setTranslationKey("levelup:netherore").setRegistryName(new ResourceLocation("levelup2", "netherore"));
-    public static Item endOreChunk = new ItemOreChunk(Library.END_ORES).setTranslationKey("levelup:endore").setRegistryName(new ResourceLocation("levelup2", "endore"));
-    public static Item respecBook = new ItemRespecBook().setTranslationKey("levelup:respec").setRegistryName(new ResourceLocation("levelup2", "respecbook"));
-    public static Item skillBook = new ItemExperienceBook().setTranslationKey("levelup:skill").setRegistryName(new ResourceLocation("levelup2", "skillbook"));
+    public static Item surfaceOreChunk = new ItemOreChunk(Library.SURFACE_ORES).setTranslationKey("levelup:surfaceore").setRegistryName(new ResourceLocation("src/broken/levelup2", "surfaceore"));
+    public static Item netherOreChunk = new ItemOreChunk(Library.NETHER_ORES).setTranslationKey("levelup:netherore").setRegistryName(new ResourceLocation("src/broken/levelup2", "netherore"));
+    public static Item endOreChunk = new ItemOreChunk(Library.END_ORES).setTranslationKey("levelup:endore").setRegistryName(new ResourceLocation("src/broken/levelup2", "endore"));
+    public static Item respecBook = new ItemRespecBook().setTranslationKey("levelup:respec").setRegistryName(new ResourceLocation("src/broken/levelup2", "respecbook"));
+    public static Item skillBook = new ItemExperienceBook().setTranslationKey("levelup:skill").setRegistryName(new ResourceLocation("src/broken/levelup2", "skillbook"));
 
     public static void loadSkills() {
         addCropsToBlacklist(LevelUpConfig.cropBlacklist);

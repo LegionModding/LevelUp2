@@ -21,7 +21,7 @@ public class GuiImage extends GuiButton {
 
     public GuiImage(int buttonID, int x, int y, int width, int height, String type) {
         super(buttonID, x, y, width, height, "");
-        BUTTON_IMAGE = new ResourceLocation("levelup2", "textures/gui/button.png");
+        BUTTON_IMAGE = new ResourceLocation("src/broken/levelup2", "textures/gui/button.png");
         this.type = type;
         repStack = type.equals("mining") ? new ItemStack(Items.DIAMOND_PICKAXE) : type.equals("craft") ? new ItemStack(Blocks.CRAFTING_TABLE) : new ItemStack(Items.DIAMOND_SWORD);
     }
