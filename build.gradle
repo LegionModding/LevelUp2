@@ -9,7 +9,7 @@ buildscript {
 }
 apply plugin: 'net.minecraftforge.gradle'
 
-version = 'Forge-0.0.1'
+version = 'Forge-0.0.2'
 group = 'com.legionmodding.levelupreforged'
 archivesBaseName = 'LevelUpReforged'
 

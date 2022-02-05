@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "levelup2:items/respec_book"
+    "layer0": "levelupreforged:items/respec_book"
   }
 }
