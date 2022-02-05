@@ -31,6 +31,7 @@ public class LevelUpReforged
     public LevelUpReforged()
     {
         ItemRegistry.registerItems();
+        ItemRegistry.registerTinkers();
 
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::onClientSetup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::onCommonSetup);
